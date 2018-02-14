@@ -9,5 +9,5 @@ exports.helloHttp = function helloHttp (req, res) {
   res.setHeader('Content-Type', 'application/json'); //Requires application/json MIME type
   res.send(JSON.stringify({ "speech": response, "displayText": response 
   //"speech" is the spoken version of the response, "displayText" is the visual version
-  }));
+  })); 
 };
